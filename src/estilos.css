@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    font-family: "Playfair Display";
+    height: 100vh;
+
+}
+.contenedor{
+    height: 100%;
+    border: 50px;
+
+
+
+}
+.recuadros{
+    float: left;
+    height: 100%;
+
+    width: 33.333%;
+
+    justify-content: center;
+    text-align: center;
+}
+.recuadros h1{
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.i1{
+    background-color: aqua;
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+
+}
+.i2{
+    background-color: chartreuse;
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+}
+.i3{
+    background-color: coral;
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+}
+.i1:hover>h1{
+    display: none;
+}
+.i2:hover>h1{
+    display: none;
+}
+.i3:hover>h1 {
+    display: none;
+}
+.i1:hover{
+    transform: scale(1.01);
+    background-image: url("/src/imagenes/face.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: dodgerblue;
+
+}
+.i2:hover{
+    transform: scale(1.1);
+    background-image: url("/src/imagenes/dancer.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: dodgerblue;
+}
+.i3:hover{
+    transform: scale(1.1);
+    background-image: url("/src/imagenes/sound.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: dodgerblue;
+}
+
+.headerVolver{
+    width: 100%;
+    height: 5vh;
+    background-color: yellow;
+    border: 1px black solid;
+}
+.inputVolver{
+    background-color: darkorange;
+    height: 5vh;
+    width: 15vh;
+    text-align: center;
+    border: black 1px solid;
+}
+.h1ModeloImagen{
+    width: 100%;
+    text-align: center;
+}
+.divModeloImagen{
+    ustify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.buttonModeloImagen{
+    width: 15vh;
+    background-color: chartreuse;
+}
+#btnModeloImagen{
+    display: block;
+}
