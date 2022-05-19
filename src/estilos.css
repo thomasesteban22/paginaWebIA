@@ -156,3 +156,11 @@ body{
     color: white;
 
 }
+#iconosSonidos{
+    width: 50px;
+    height: 100%;
+    margin-left: 250px;
+    display:none;
+    margin-top: 50px;
+}
+
