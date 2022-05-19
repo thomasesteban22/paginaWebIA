@@ -83,7 +83,7 @@ body{
 }
 .i3:hover{
     transform: scale(1.1);
-    background-image: url("/imagenes/sound.svg");
+    background-image: url("./imagenes/sound.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
