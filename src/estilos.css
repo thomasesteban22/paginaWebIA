@@ -66,7 +66,7 @@ body{
 }
 .i1:hover{
     transform: scale(1.01);
-    background-image: url("/src/imagenes/face.svg");
+    background-image: url("./imagenes/face.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body{
 }
 .i2:hover{
     transform: scale(1.1);
-    background-image: url("/imagenes/dancer.svg");
+    background-image: url("./imagenes/dancer.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
